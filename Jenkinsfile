@@ -20,7 +20,6 @@ stages {
     stage('Deploy') {
         steps {
             // deployment code
-            sh 'mvn deploy'
             echo 'Pipeline successful'
         }
     }
